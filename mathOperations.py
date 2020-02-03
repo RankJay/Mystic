@@ -27,6 +27,14 @@ class mathOperations:
       return 'floor(variable1)'
     elif(math.ceil(inputFromUser)==outputFromUser):
       return 'ceil(variable1)'
+    elif(abs(inputFromUser)==outputFromUser):
+      return 'abs(variable1)'
+    elif(round(math.sin(inputFromUser), 2)==outputFromUser):
+      return 'sin(variable1)'
+    elif(round(math.cos(inputFromUser), 2)==outputFromUser):
+      return 'cos(variable1)'
+    elif(round(math.tan(inputFromUser), 2)==outputFromUser):
+      return 'tan(variable1)'
     else:
       return '0'
 
@@ -52,6 +60,14 @@ class mathOperations:
       return 'floor(variable1)'
     elif(math.ceil(inputFromUser)==outputFromUser):
       return 'ceil(variable1)'
+    elif(abs(inputFromUser)==outputFromUser):
+      return 'abs(variable1)'
+    elif(round(math.sin(inputFromUser), 2)==outputFromUser):
+      return 'sin(variable1)'
+    elif(round(math.cos(inputFromUser), 2)==outputFromUser):
+      return 'cos(variable1)'
+    elif(round(math.tan(inputFromUser), 2)==outputFromUser):
+      return 'tan(variable1)'
     else:
       return '0'
   
@@ -77,6 +93,14 @@ class mathOperations:
       return 'math.floor(variable1)'
     elif(math.ceil(inputFromUser)==outputFromUser):
       return 'math.ceil(variable1)'
+    elif(abs(inputFromUser)==outputFromUser):
+      return 'abs(variable1)'
+    elif(round(math.sin(inputFromUser), 2)==outputFromUser):
+      return 'math.sin(variable1)'
+    elif(round(math.cos(inputFromUser), 2)==outputFromUser):
+      return 'math.cos(variable1)'
+    elif(round(math.tan(inputFromUser), 2)==outputFromUser):
+      return 'math.tan(variable1)'
     else:
       return '0'
   
@@ -102,5 +126,13 @@ class mathOperations:
       return 'Math.floor(variable1)'
     elif(math.ceil(inputFromUser)+1==outputFromUser):
       return 'Math.ceil(variable1)'
+    elif(abs(inputFromUser)==outputFromUser):
+      return 'abs(variable1)'
+    elif(round(math.sin(inputFromUser), 2)==outputFromUser):
+      return 'Math.sin(variable1)'
+    elif(round(math.cos(inputFromUser), 2)==outputFromUser):
+      return 'Math.cos(variable1)'
+    elif(round(math.tan(inputFromUser), 2)==outputFromUser):
+      return 'Math.tan(variable1)'
     else:
       return '0'
