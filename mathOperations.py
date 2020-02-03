@@ -45,6 +45,18 @@ class mathOperations:
       return 'cos(variable1)'
     elif(round(math.tan(inputFromUser), 2)==outputFromUser):
       return 'tan(variable1)'
+    elif(round(math.sinh(inputFromUser), 2)==outputFromUser):
+      return 'sinh(variable1)'
+    elif(round(math.cosh(inputFromUser), 2)==outputFromUser):
+      return 'cosh(variable1)'
+    elif(round(math.tanh(inputFromUser), 2)==outputFromUser):
+      return 'tanh(variable1)'
+    elif(round(math.asinh(inputFromUser), 2)==outputFromUser):
+      return 'asinh(variable1)'
+    elif(round(math.acosh(inputFromUser), 2)==outputFromUser):
+      return 'acosh(variable1)'
+    elif(round(math.atanh(inputFromUser), 2)==outputFromUser):
+      return 'atanh(variable1)'
     else:
       return '0'
 
@@ -88,6 +100,18 @@ class mathOperations:
       return 'cos(variable1)'
     elif(round(math.tan(inputFromUser), 2)==outputFromUser):
       return 'tan(variable1)'
+    elif(round(math.sinh(inputFromUser), 2)==outputFromUser):
+      return 'sinh(variable1)'
+    elif(round(math.cosh(inputFromUser), 2)==outputFromUser):
+      return 'cosh(variable1)'
+    elif(round(math.tanh(inputFromUser), 2)==outputFromUser):
+      return 'tanh(variable1)'
+    elif(round(math.asinh(inputFromUser), 2)==outputFromUser):
+      return 'asinh(variable1)'
+    elif(round(math.acosh(inputFromUser), 2)==outputFromUser):
+      return 'acosh(variable1)'
+    elif(round(math.atanh(inputFromUser), 2)==outputFromUser):
+      return 'atanh(variable1)'
     else:
       return '0'
   
@@ -131,6 +155,18 @@ class mathOperations:
       return 'math.cos(variable1)'
     elif(round(math.tan(inputFromUser), 2)==outputFromUser):
       return 'math.tan(variable1)'
+    elif(round(math.sinh(inputFromUser), 2)==outputFromUser):
+      return 'math.sinh(variable1)'
+    elif(round(math.cosh(inputFromUser), 2)==outputFromUser):
+      return 'math.cosh(variable1)'
+    elif(round(math.tanh(inputFromUser), 2)==outputFromUser):
+      return 'math.tanh(variable1)'
+    elif(round(math.asinh(inputFromUser), 2)==outputFromUser):
+      return 'math.asinh(variable1)'
+    elif(round(math.acosh(inputFromUser), 2)==outputFromUser):
+      return 'math.acosh(variable1)'
+    elif(round(math.atanh(inputFromUser), 2)==outputFromUser):
+      return 'math.atanh(variable1)'
     else:
       return '0'
   
@@ -174,5 +210,17 @@ class mathOperations:
       return 'Math.cos(variable1)'
     elif(round(math.tan(inputFromUser), 2)==outputFromUser):
       return 'Math.tan(variable1)'
+    elif(round(math.sinh(inputFromUser), 2)==outputFromUser):
+      return 'Math.sinh(variable1)'
+    elif(round(math.cosh(inputFromUser), 2)==outputFromUser):
+      return 'Math.cosh(variable1)'
+    elif(round(math.tanh(inputFromUser), 2)==outputFromUser):
+      return 'Math.tanh(variable1)'
+    elif(round(math.asinh(inputFromUser), 2)==outputFromUser):
+      return 'Math.asinh(variable1)'
+    elif(round(math.acosh(inputFromUser), 2)==outputFromUser):
+      return 'Math.acosh(variable1)'
+    elif(round(math.atanh(inputFromUser), 2)==outputFromUser):
+      return 'Math.atanh(variable1)'
     else:
       return '0'
