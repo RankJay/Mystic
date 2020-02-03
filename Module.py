@@ -3,8 +3,8 @@ from stringOperations import stringOperations
 
 class moduleCreator:
   def cModuleCreator(inputFromUser, outputFromUser):
-    if ord(inputFromUser)>=48 and ord(inputFromUser)<=57:
-      if ord(outputFromUser)>=48 and ord(outputFromUser)<=57:
+    if float(inputFromUser):
+      if float(outputFromUser):
           function = mathOperations.cMathOperations(inputFromUser, outputFromUser)
           moduleWriter.cWriter(inputFromUser, outputFromUser, function)
       else:
@@ -14,8 +14,8 @@ class moduleCreator:
       moduleWriter.cWriter(inputFromUser, outputFromUser, function)
   
   def cplusModuleCreator(inputFromUser, outputFromUser):
-    if ord(inputFromUser)>=48 and ord(inputFromUser)<=57:
-      if ord(outputFromUser)>=48 and ord(outputFromUser)<=57:
+    if float(inputFromUser):
+      if float(outputFromUser):
         function = mathOperations.cPlusMathOperations(inputFromUser, outputFromUser)
         moduleWriter.cPlusWriter(inputFromUser, outputFromUser, function)
       else:
@@ -25,8 +25,8 @@ class moduleCreator:
       moduleWriter.cPlusWriter(inputFromUser, outputFromUser, function)
 
   def pythonModuleCreator(inputFromUser, outputFromUser, languageFromUser):
-    if ord(inputFromUser)>=48 and ord(inputFromUser)<=57:
-      if ord(outputFromUser)>=48 and ord(outputFromUser)<=57:
+    if float(inputFromUser):
+      if float(outputFromUser):
         function = mathOperations.pythonMathOperations(inputFromUser, outputFromUser)
         moduleWriter.pythonWriter(inputFromUser, outputFromUser, function)
       else:
@@ -36,8 +36,8 @@ class moduleCreator:
       moduleWriter.pythonWriter(inputFromUser, outputFromUser, function)
 
   def javaModuleCreator(inputFromUser, outputFromUser):
-    if ord(inputFromUser)>=48 and ord(inputFromUser)<=57:
-      if ord(outputFromUser)>=48 and ord(outputFromUser)<=57:
+    if float(inputFromUser):
+      if float(outputFromUser):
         function = mathOperations.javaMathOperations(inputFromUser, outputFromUser)
         moduleWriter.javaWriter(inputFromUser, outputFromUser, function)
       else:
@@ -64,5 +64,5 @@ class moduleWriter:
 
   def javaWriter(inputFromUser, outputFromUser,  function):
     f= open("Program.java","w+")
-    f.write('import java.util.*;\npublic class Main {\n\tpublic static void main(String[] args) {\n\t\tScanner scanner=new Scanner(System.in);\n\t\tint variable1 = scanner.nextInt();\n\t\tint output=(int)'+ function +';\n\t\tSystem.out.println(output);\n\t}\n}')
+    f.write('import java.util.*;\n\npublic class Main {\n\tpublic static void main(String[] args) {\n\t\tScanner scanner=new Scanner(System.in);\n\t\tint variable1 = scanner.nextInt();\n\t\tint output=(int)'+ function +';\n\t\tSystem.out.println(output);\n\t}\n}')
     f.close
