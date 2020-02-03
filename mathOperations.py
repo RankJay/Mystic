@@ -1,6 +1,7 @@
 import math
-accessNaturalNumbers=[1,2,3,4,5]
-access_iter=iter(access)
+import accessNaturalNumbers
+
+access_iter=iter(accessNaturalNumbers.NaturalNumbers)
 
 class mathOperations:
   def cMathOperations(inputFromUser, outputFromUser):
@@ -8,7 +9,7 @@ class mathOperations:
     outputFromUser=float(outputFromUser)
     try:
       while True:
-        if (inputFromUser**(access_iter.__next__())==outputFromUser):
+        if (round(inputFromUser**(access_iter.__next__()))==outputFromUser):
           function = 'pow(variable1, '+ str(access_iter.__next__()-1) +')'
           return str(function)
     except:
@@ -61,7 +62,7 @@ class mathOperations:
     outputFromUser=float(outputFromUser)
     try:
       while True:
-        if (inputFromUser**(access_iter.__next__())==outputFromUser):
+        if (round(inputFromUser**(access_iter.__next__()))==outputFromUser):
           function = 'Math.pow(variable1, '+ str(access_iter.__next__()-1) +')'
           return str(function)
     except:
