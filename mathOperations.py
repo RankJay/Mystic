@@ -23,6 +23,16 @@ class mathOperations:
           return str(function)
     except:
       pass
+    access_iter.reset()
+    # REMOVE 1 FROM accessNaturalNumbers to operate log
+    try:
+      while True:
+        base=int(access_iter.__next__())
+        if (math.log(inputFromUser, base)==outputFromUser):
+          function = 'log(variable1, '+ str(base) +')'
+          return str(function)
+    except:
+      pass
     if(math.floor(inputFromUser)==outputFromUser):
       return 'floor(variable1)'
     elif(math.ceil(inputFromUser)==outputFromUser):
@@ -53,6 +63,16 @@ class mathOperations:
       while True:
         if (round(outputFromUser**(access_iter.__next__()))==inputFromUser):
           function = 'pow(variable1, '+ str(float(1/(access_iter.__next__()-1))) +')'
+          return str(function)
+    except:
+      pass
+    access_iter.reset()
+    # REMOVE 1 FROM accessNaturalNumbers to operate log
+    try:
+      while True:
+        base=int(access_iter.__next__())
+        if (math.log(inputFromUser, base)==outputFromUser):
+          function = 'log(variable1, '+ str(base) +')'
           return str(function)
     except:
       pass
@@ -89,6 +109,16 @@ class mathOperations:
           return str(function)
     except:
       pass
+    access_iter.reset()
+    # REMOVE 1 FROM accessNaturalNumbers to operate log
+    try:
+      while True:
+        base=int(access_iter.__next__())
+        if (math.log(inputFromUser, base)==outputFromUser):
+          function = 'math.log(variable1, '+ str(base) +')'
+          return str(function)
+    except:
+      pass
     if(math.floor(inputFromUser)==outputFromUser):
       return 'math.floor(variable1)'
     elif(math.ceil(inputFromUser)==outputFromUser):
@@ -119,6 +149,16 @@ class mathOperations:
       while True:
         if (round(outputFromUser**(access_iter.__next__()))==inputFromUser):
           function = 'Math.pow(variable1, '+ str(float(1/(access_iter.__next__()-1))) +')'
+          return str(function)
+    except:
+      pass
+    access_iter.reset()
+    # REMOVE 1 FROM accessNaturalNumbers to operate log
+    try:
+      while True:
+        base=int(access_iter.__next__())
+        if (math.log(inputFromUser, base)==outputFromUser):
+          function = 'Math.log(variable1, '+ str(base) +')'
           return str(function)
     except:
       pass
