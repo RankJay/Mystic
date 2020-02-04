@@ -49,20 +49,20 @@ class moduleCreator:
 class moduleWriter:
   def cWriter(inputFromUser, outputFromUser, function):
     f= open("Program.c","w+")
-    f.write('#include<stdio.h>\n#include<math.h>\n\nint main() {\n\tint variable1, output;\n\tscanf("%d", &variable1);\n\toutput='+ function +';\n\tprintf("%d", output);\n}')
+    f.write('#include<stdio.h>\n#include<math.h>\n\nint main() {\n\tfloat variable1, output;\n\tscanf("%f", &variable1);\n\toutput='+ function +';\n\tprintf("%f", output);\n}')
     f.close
   
   def cPlusWriter(inputFromUser, outputFromUser, function):
     f= open("Program.cpp","w+")
-    f.write('#include <iostream>\n#include <math.h>\nusing namespace std;\n\nint main() {\n\tint variable1, output;\n\tcin >> variable1;\n\toutput='+function+';\n\tcout << output;\n}')
+    f.write('#include <iostream>\n#include <math.h>\nusing namespace std;\n\nint main() {\n\tfloat variable1, output;\n\tcin >> variable1;\n\toutput='+function+';\n\tcout << output;\n}')
     f.close
 
   def pythonWriter(inputFromUser, outputFromUser, function):
     f= open("Program.py","w+")
-    f.write('import math\n\nvariable1=int(input())\noutput='+ function +'\nprint(output)')
+    f.write('import math\n\nvariable1=float(input())\noutput='+ function +'\nprint(output)')
     f.close
 
   def javaWriter(inputFromUser, outputFromUser,  function):
     f= open("Program.java","w+")
-    f.write('import java.util.*;\n\npublic class Main {\n\tpublic static void main(String[] args) {\n\t\tScanner scanner=new Scanner(System.in);\n\t\tint variable1 = scanner.nextInt();\n\t\tint output=(int)'+ function +';\n\t\tSystem.out.println(output);\n\t}\n}')
+    f.write('import java.util.*;\n\npublic class Main {\n\tpublic static void main(String[] args) {\n\t\tScanner scanner=new Scanner(System.in);\n\t\tfloat variable1 = scanner.nextFloat();\n\t\tfloat output=(float)'+ function +';\n\t\tSystem.out.println(output);\n\t}\n}')
     f.close
