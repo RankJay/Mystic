@@ -6,11 +6,18 @@ access_iter=numpy.nditer([accessNaturalNumbers.NaturalNumbers])
 
 class mathOperations:
   def cMathOperations(inputFromUser, outputFromUser):
+    arithmaticOperations = [float(index) for index in inputFromUser.split(' ')]
+    if (sum(arithmaticOperations)==float(outputFromUser)):
+      f= open("Program.c","w+")
+      f.write('/*Add this in int main()\n\tfloat variable2;\n\tscanf("%f", &variable2);\n*/\n\n')
+      f.close
+      function = 'variable1+variable2'
+      return str(function)
     inputFromUser=float(inputFromUser)
     outputFromUser=float(outputFromUser)
     try:
       while True:
-        if (round(inputFromUser**(access_iter.__next__()))==outputFromUser):
+        if (round(inputFromUser**(access_iter.__next__()), 3)==outputFromUser):
           function = 'pow(variable1, '+ str(access_iter.__next__()-1) +')'
           return str(function)
     except:
@@ -18,7 +25,7 @@ class mathOperations:
     access_iter.reset()
     try:
       while True:
-        if (round(outputFromUser**(access_iter.__next__()))==inputFromUser):
+        if (round(outputFromUser**(access_iter.__next__()), 3)==inputFromUser):
           function = 'pow(variable1, '+ str(float(1/(access_iter.__next__()-1))) +')'
           return str(function)
     except:
@@ -61,6 +68,13 @@ class mathOperations:
       return '0'
 
   def cPlusMathOperations(inputFromUser, outputFromUser):
+    arithmaticOperations = [float(index) for index in inputFromUser.split(' ')]
+    if (sum(arithmaticOperations)==float(outputFromUser)):
+      f= open("Program.cpp","w+")
+      f.write('/*Add this in int main()\n\tfloat variable2;\n\tcin >> variable2;\n*/\n\n')
+      f.close
+      function = 'variable1+variable2'
+      return str(function)
     inputFromUser=float(inputFromUser)
     outputFromUser=float(outputFromUser)
     try:
@@ -116,6 +130,13 @@ class mathOperations:
       return '0'
   
   def pythonMathOperations(inputFromUser, outputFromUser):
+    arithmaticOperations = [float(index) for index in inputFromUser.split(' ')]
+    if (sum(arithmaticOperations)==float(outputFromUser)):
+      f= open("Program.py","w+")
+      f.write("'''\nAdd this below variable1 input\nvariable2=float(input())\n'''\n")
+      f.close
+      function = 'variable1+variable2'
+      return str(function)
     inputFromUser=float(inputFromUser)
     outputFromUser=float(outputFromUser)
     try:
@@ -171,6 +192,13 @@ class mathOperations:
       return '0'
   
   def javaMathOperations(inputFromUser, outputFromUser):
+    arithmaticOperations = [float(index) for index in inputFromUser.split(' ')]
+    if (sum(arithmaticOperations)==float(outputFromUser)):
+      f= open("Program.java","w+")
+      f.write('/*Add this in int main()\n\tfloat variable2 = scanner.nextFloat();\n*/\n\n')
+      f.close
+      function = 'variable1+variable2'
+      return str(function)
     inputFromUser=float(inputFromUser)
     outputFromUser=float(outputFromUser)
     try:
