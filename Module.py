@@ -48,7 +48,6 @@ class moduleCreator:
 
 class moduleWriter:
   def cWriter(inputFromUser, outputFromUser, function):
-    pass
     f= open("Program.c","a")
     f.write('#include<stdio.h>\n#include<math.h>\n\nint main() {\n\tfloat variable1, output;\n\tscanf("%f", &variable1);\n\toutput='+ function +';\n\tprintf("%f", output);\n}')
     f.close
