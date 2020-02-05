@@ -1,49 +1,67 @@
 from mathOperations import mathOperations
 from stringOperations import stringOperations
+from modularOperations import modularOperations
 
 class moduleCreator:
   def cModuleCreator(inputFromUser, outputFromUser):
     if (inputFromUser):
-      if float(outputFromUser):
-          function = mathOperations.cMathOperations(inputFromUser, outputFromUser)
-          moduleWriter.cWriter(inputFromUser, outputFromUser, function)
-      else:
-        pass
-    else:
-      function = stringOperations.cStringOperations(inputFromUser, outputFromUser)
+      charLook = ' '
+      if charLook not in outputFromUser:
+        function = mathOperations.cMathOperations(inputFromUser, outputFromUser)
+        moduleWriter.cWriter(inputFromUser, outputFromUser, function)
+        exit(0)
+
+      elif 'a' in outputFromUser or 'e' in outputFromUser or 'i' in outputFromUser or 'o' in outputFromUser or 'u' in outputFromUser:
+        function = stringOperations.cStringOperations(inputFromUser, outputFromUser)
+        moduleWriter.cWriter(inputFromUser, outputFromUser, function)
+        exit(0)
+    if len(inputFromUser)>1 and len(outputFromUser)>1:
+      function = modularOperations.cModularOperations(inputFromUser, outputFromUser)
       moduleWriter.cWriter(inputFromUser, outputFromUser, function)
   
   def cplusModuleCreator(inputFromUser, outputFromUser):
     if (inputFromUser):
-      if float(outputFromUser):
+      charLook = ' '
+      if charLook not in outputFromUser:
         function = mathOperations.cPlusMathOperations(inputFromUser, outputFromUser)
         moduleWriter.cPlusWriter(inputFromUser, outputFromUser, function)
-      else:
-        pass
-    else:
-      function = stringOperations.cPlusStringOperations(inputFromUser, outputFromUser)
+        exit(0)
+      elif 'a' in outputFromUser or 'e' in outputFromUser or 'i' in outputFromUser or 'o' in outputFromUser or 'u' in outputFromUser:
+        function = stringOperations.cPlusStringOperations(inputFromUser, outputFromUser)
+        moduleWriter.cPlusWriter(inputFromUser, outputFromUser, function)
+        exit(0)
+    if len(inputFromUser)>1 and len(outputFromUser)>1:
+      function = modularOperations.cPlusModularOperations(inputFromUser, outputFromUser)
       moduleWriter.cPlusWriter(inputFromUser, outputFromUser, function)
 
   def pythonModuleCreator(inputFromUser, outputFromUser, languageFromUser):
     if (inputFromUser):
-      if float(outputFromUser):
+      charLook = ' '
+      if charLook not in outputFromUser:
         function = mathOperations.pythonMathOperations(inputFromUser, outputFromUser)
         moduleWriter.pythonWriter(inputFromUser, outputFromUser, function)
-      else:
-        pass
-    else:
-      function = stringOperations.pythonStringOperations(inputFromUser, outputFromUser)
+        exit(0)
+      elif 'a' in outputFromUser or 'e' in outputFromUser or 'i' in outputFromUser or 'o' in outputFromUser or 'u' in outputFromUser:
+        function = stringOperations.pythonStringOperations(inputFromUser, outputFromUser)
+        moduleWriter.pythonWriter(inputFromUser, outputFromUser, function)
+        exit(0)
+    if len(inputFromUser)>1 and len(outputFromUser)>1:
+      function = modularOperations.pythonModularOperations(inputFromUser, outputFromUser)
       moduleWriter.pythonWriter(inputFromUser, outputFromUser, function)
 
   def javaModuleCreator(inputFromUser, outputFromUser):
     if (inputFromUser):
-      if float(outputFromUser):
+      charLook = ' '
+      if charLook not in outputFromUser:
         function = mathOperations.javaMathOperations(inputFromUser, outputFromUser)
         moduleWriter.javaWriter(inputFromUser, outputFromUser, function)
-      else:
-        pass
-    else:
-      function = stringOperations.javaStringOperations(inputFromUser, outputFromUser)
+        exit(0)
+      elif 'a' in outputFromUser or 'e' in outputFromUser or 'i' in outputFromUser or 'o' in outputFromUser or 'u' in outputFromUser:
+        function = stringOperations.javaStringOperations(inputFromUser, outputFromUser)
+        moduleWriter.javaWriter(inputFromUser, outputFromUser, function)
+        exit(0)
+    if len(inputFromUser)>1 and len(outputFromUser)>1:
+      function = modularOperations.javaModularOperations(inputFromUser, outputFromUser)
       moduleWriter.javaWriter(inputFromUser, outputFromUser, function)
 
 class moduleWriter:
@@ -54,7 +72,7 @@ class moduleWriter:
   
   def cPlusWriter(inputFromUser, outputFromUser, function):
     f= open("Program.cpp","a")
-    f.write('#include <iostream>\n#include <math.h>\nusing namespace std;\n\nint main() {\n\tfloat variable1, output;\n\tcin >> variable1;\n\toutput='+function+';\n\tcout << output;\n}')
+    f.write('#include <iostream>\n#include <math.h>\nusing namespace std;\n\nint main() {\n\tfloat variable1, output;\n\tcin >> variable1;\n\toutput='+ function +';\n\tcout << output;\n}')
     f.close
 
   def pythonWriter(inputFromUser, outputFromUser, function):
