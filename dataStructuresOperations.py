@@ -1,16 +1,16 @@
-class modularOperations:
-  def cModularOperations(inputFromUser, outputFromUser):
+class dataStructuresOperations:
+  def cdataStructuresOperations(inputFromUser, outputFromUser):
     modularInOperations = [float(index) for index in inputFromUser.split(' ')]
     modularInOperations.sort()
     modularOutOperations = [float(index) for index in outputFromUser.split(' ')]
     if modularInOperations==modularOutOperations:
       f= open("Program.c","w+")
-      f.write("/*\n#include<stdio.h>\nvoid quicksort(int number[25],int first,int last)\n{\n\tint i, j, pivot, temp;\n\n\n\tif(first<last)\n\t{\n\t\tpivot=first;\n\t\ti=first;\n\t\tj=last;\n\n\t\twhile(i<j)\n\t\t{\n\t\t\twhile(number[i]<=number[pivot] && i<last)\n\t\t\t\ti++;\n\t\t\twhile(number[j]>number[pivot])\n\t\t\t\tj--;\n\t\t\tif(i<j)\n\t\t\t{\n\t\t\t\ttemp=number[i];\n\t\t\t\tnumber[i]=number[j];\n\t\t\t\tnumber[j]=temp;\n\t\t\t}\n\t\t}\n\n\t\ttemp=number[pivot];\n\t\tnumber[pivot]=number[j];\n\t\tnumber[j]=temp;\n\t\tquicksort(number,first,j-1);\n\t\tquicksort(number,j+1,last);\n\n\t}\n}*/")
+      f.write("/*\nvoid quicksort(int number[25],int first,int last)\n{\n\tint i, j, pivot, temp;\n\n\n\tif(first<last)\n\t{\n\t\tpivot=first;\n\t\ti=first;\n\t\tj=last;\n\n\t\twhile(i<j)\n\t\t{\n\t\t\twhile(number[i]<=number[pivot] && i<last)\n\t\t\t\ti++;\n\t\t\twhile(number[j]>number[pivot])\n\t\t\t\tj--;\n\t\t\tif(i<j)\n\t\t\t{\n\t\t\t\ttemp=number[i];\n\t\t\t\tnumber[i]=number[j];\n\t\t\t\tnumber[j]=temp;\n\t\t\t}\n\t\t}\n\n\t\ttemp=number[pivot];\n\t\tnumber[pivot]=number[j];\n\t\tnumber[j]=temp;\n\t\tquicksort(number,first,j-1);\n\t\tquicksort(number,j+1,last);\n\n\t}\n}*/")
       f.close
       function = 'quicksort(number,0,count-1);'
       return str(function)
 
-  def cPlusModularOperations(inputFromUser, outputFromUser):
+  def cPlusdataStructuresOperations(inputFromUser, outputFromUser):
     modularInOperations = [float(index) for index in inputFromUser.split(' ')]
     modularInOperations.sort()
     modularOutOperations = [float(index) for index in outputFromUser.split(' ')]
@@ -21,7 +21,7 @@ class modularOperations:
       function = 'quicksort(number,0,count-1);'
       return str(function)
   
-  def pythonModularOperations(inputFromUser, outputFromUser):
+  def pythondataStructuresOperations(inputFromUser, outputFromUser):
     modularInOperations = [float(index) for index in inputFromUser.split(' ')]
     modularInOperations.sort()
     modularOutOperations = [float(index) for index in outputFromUser.split(' ')]
@@ -32,7 +32,7 @@ class modularOperations:
       function = 'quickSort(arr,0,n-1)\noutput=arr'
       return str(function)
   
-  def javaModularOperations(inputFromUser, outputFromUser):
+  def javadataStructuresOperations(inputFromUser, outputFromUser):
     modularInOperations = [float(index) for index in inputFromUser.split(' ')]
     modularInOperations.sort()
     modularOutOperations = [float(index) for index in outputFromUser.split(' ')]
