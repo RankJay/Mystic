@@ -5,6 +5,8 @@
 - Originally, it was designed to provide user with most accurate math function with respect to user provided input-output and programming language they wanted the respective program in.
 - Since then, Mystic has been expanded single handedly in string operations like string appending as well as concatination and deleting of a string and also in data structures operations like array sorting, linked-lists and search trees as well as graph operations.
 ## Input-Output Based Operations
+This section scans the input and checks whether the data received is any prgramming language code or not, if not it further asks user to enter desired output and respective language they want this program in.
+The MasterControl then sends this data to Module.py which takes further steps to forward the data entries to respective intended language writer and its function generator to process out the procedure of writing code.
 ### Mathimatical Funtionality
 ### String-related Funtionality
 ### Data Structures Funtionality
