@@ -7,6 +7,11 @@
 ## Input-Output Based Operations
 This section scans the input and checks whether the data received is any prgramming language code or not, if not it further asks user to enter desired output and respective language they want this program in.
 The MasterControl then sends this data to Module.py which takes further steps to forward the data entries to respective intended language writer and its function generator to process out the procedure of writing code.
+- [Module.py](https://github.com/RankJay/Mystic/blob/master/Module.py) is basically, the core-processor of the entire Input-Output Based Operations functionalities. The only module that reads the received input-output decides which operations should be executed and accordingly forwards the data to generate respective funtion and then further forward it to respective language `moduleWriter` class to write down the entire code and provide user with processed code in desired language intended by user.
+- Functionality Distributor:
+  1) Mathematical Functionality
+  2) String-related Functionality
+  3) Data Structures Functionality
 ### Mathimatical Funtionality
 ### String-related Funtionality
 ### Data Structures Funtionality
