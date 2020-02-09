@@ -14,6 +14,10 @@ The MasterControl then sends this data to Module.py which takes further steps to
   3) Data Structures Functionality
 ### Mathimatical Funtionality
 This underlying architecture of this entire module lies in interpreting and generating the mathematical function based on input-output that is provided by user. By following certain set of protocols as input, user can easily get the desired mathematical function.
+1) Basic Arithmetic Opserations: Addition, Substraction, Multiplication and Division
+2) Power raise to N
+3) Nth Root
+4) Logarithm to the Base N
 ### String-related Funtionality
 ### Data Structures Funtionality
 ## Code Based Operations
