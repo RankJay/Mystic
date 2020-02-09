@@ -18,6 +18,17 @@ This underlying architecture of this entire module lies in interpreting and gene
 2) Power raise to N
 3) Nth Root
 4) Logarithm to the Base N
+5) Floor function
+6) Ceiling function
+7) Sine function
+8) Cosine function
+9) Tangent function
+10) Sine-Hyperbolic function
+11) Cosine-Hyperbolic function
+12) Tangent-Hyperbolic function
+13) Inverse Sine-Hyperbolic function
+14) Inverse Cosine-Hyperbolic function
+15) Inverse Tangent-Hyperbolic function
 ### String-related Funtionality
 ### Data Structures Funtionality
 ## Code Based Operations
