@@ -13,7 +13,7 @@ The MasterControl then sends this data to Module.py which takes further steps to
   2) String-related Functionality
   3) Data Structures Functionality
 ### Mathimatical Funtionality
-This underlying architecture of this entire module lies in interpreting and generating the mathematical function based on input-output that is provided by user. By following certain set of protocols as input, user can easily get the desired mathematical function.
+The underlying architecture of this entire module lies in interpreting and generating the mathematical function based on input-output that is provided by user. By following certain set of protocols as input, user can easily get the desired mathematical function.
 1) Basic Arithmetic Opserations: Addition, Substraction, Multiplication and Division
 2) Power raise to N
 3) Nth Root
@@ -30,6 +30,7 @@ This underlying architecture of this entire module lies in interpreting and gene
 14) Inverse Cosine-Hyperbolic function
 15) Inverse Tangent-Hyperbolic function
 ### String-related Funtionality
+The underlying architecture of this entire module lies in interpreting and generating the function related to string and file handling like concatination as well as changing cases and handleing any grammatical error based on input-output that is provided by user. By following certain set of protocols as input, user can be easily provided with the most significant algorithm based on output generated.
 ### Data Structures Funtionality
 ## Code Based Operations
 ### Language Translator
