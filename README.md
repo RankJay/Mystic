@@ -13,6 +13,7 @@ The MasterControl then sends this data to Module.py which takes further steps to
   2) String-related Functionality
   3) Data Structures Functionality
 ### Mathimatical Funtionality
+This underlying architecture of this entire module lies in interpreting and generating the mathematical function based on input-output that is provided by user. By following certain set of protocols as input, user can easily get the desired mathematical function.
 ### String-related Funtionality
 ### Data Structures Funtionality
 ## Code Based Operations
