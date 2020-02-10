@@ -67,6 +67,8 @@ class mathOperations:
       return 'ceil(variable1)'
     elif(abs(inputFromUser)==outputFromUser):
       return 'abs(variable1)'
+    elif(1/inputFromUser==outputFromUser):
+      return '1/variable1'
     elif(round(math.sin(inputFromUser), 2)==outputFromUser):
       return 'sin(variable1)'
     elif(round(math.cos(inputFromUser), 2)==outputFromUser):
@@ -150,6 +152,8 @@ class mathOperations:
       return 'ceil(variable1)'
     elif(abs(inputFromUser)==outputFromUser):
       return 'abs(variable1)'
+    elif(1/inputFromUser==outputFromUser):
+      return '1/variable1'
     elif(round(math.sin(inputFromUser), 2)==outputFromUser):
       return 'sin(variable1)'
     elif(round(math.cos(inputFromUser), 2)==outputFromUser):
@@ -233,6 +237,8 @@ class mathOperations:
       return 'math.ceil(variable1)'
     elif(abs(inputFromUser)==outputFromUser):
       return 'abs(variable1)'
+    elif(1/inputFromUser==outputFromUser):
+      return '1/variable1'
     elif(round(math.sin(inputFromUser), 2)==outputFromUser):
       return 'math.sin(variable1)'
     elif(round(math.cos(inputFromUser), 2)==outputFromUser):
@@ -315,6 +321,8 @@ class mathOperations:
       return 'Math.ceil(variable1)'
     elif(abs(inputFromUser)==outputFromUser):
       return 'abs(variable1)'
+    elif(1/inputFromUser==outputFromUser):
+      return '1/variable1'
     elif(round(math.sin(inputFromUser), 2)==outputFromUser):
       return 'Math.sin(variable1)'
     elif(round(math.cos(inputFromUser), 2)==outputFromUser):
