@@ -29,6 +29,7 @@ The underlying architecture of this entire module lies in interpreting and gener
 13) Inverse Sine-Hyperbolic function
 14) Inverse Cosine-Hyperbolic function
 15) Inverse Tangent-Hyperbolic function
+16) Absolute Value Function
 ### String-related Funtionality
 The underlying architecture of this entire module lies in interpreting and generating the function related to string and file handling like concatination as well as changing cases and handleing any grammatical error based on input-output that is provided by user. By following certain set of protocols as input, user can be easily provided with the most significant algorithm based on output generated.
 ### Data Structures Funtionality
