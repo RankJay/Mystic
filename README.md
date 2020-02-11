@@ -39,4 +39,6 @@ The underlying architecture of this entire module lies in interpreting and gener
 The underlying architecture of this entire module lies in interpreting and generating the source data structure based on input-output that is provided by user. By following certain set of protocols as input, user can be easily provided with the most significant algorithm for required data structure based on expected output. Here, the size of input matters, since asymptotic notations like Big-Oh is taken into consideration for evaluating certain parameters to generate expected outcomes.
 1) Sorting Algorithm based on input array size
 ## Code Based Operations
+This section scans the input and checks whether the data received is any prgramming language code or not, if yes it further asks user to enter desired programming language they want this program in.
+The MasterControl then sends this data to languageTranslator.py which takes further steps to forward the program to respective intended languagetranslator which further forwards it to Interpreter.Here, the the entire program irrespective of programming language is converted into interpreted mode and then it passes through languageConvertor to process out the procedure of writing code.
 ### Language Translator
