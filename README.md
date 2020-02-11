@@ -32,6 +32,9 @@ The underlying architecture of this entire module lies in interpreting and gener
 16) Absolute Value Function
 ### String-related Funtionality
 The underlying architecture of this entire module lies in interpreting and generating the function related to string and file handling like concatination as well as changing cases and handleing any grammatical error based on input-output that is provided by user. By following certain set of protocols as input, user can be easily provided with the most significant algorithm based on output generated.
+1) String Concatenation
+2) String Deletion
+3) Palindrome
 ### Data Structures Funtionality
 The underlying architecture of this entire module lies in interpreting and generating the source data structure based on input-output that is provided by user. By following certain set of protocols as input, user can be easily provided with the most significant algorithm for required data structure based on expected output. Here, the size of input matters, since asymptotic notations like Big-Oh is taken into consideration for evaluating certain parameters to generate expected outcomes.
 1) Sorting Algorithm based on input array size
