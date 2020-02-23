@@ -12,3 +12,6 @@ class PredictionWriter:
       except ValueError:
         if len(inputFromuser)>1:
           trainer.writerow([inputFromuser[0], inputFromuser[2], outputFromUser])
+          
+class GradientDescent:
+  pass
