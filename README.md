@@ -6,6 +6,7 @@
 - Since then, Mystic has been expanded single-handedly in string operations like string appending as well as concatenation and deleting of a string and also in data structures operations like array sorting, linked-lists, and search trees as well as graph operations.
 - As of now, programming of multi-language conversion is under development which when deployed will be able to convert a program from one programming language to another programming language among `C`,`C++`,`Python`,`Java`. This will be handy for most of the programming project and user will be provided with instant language transfer as per his/her designed system compatibility.
 - Further ahead, `GraphQL` and `Graph Plot` will be incorporated to provide a quicker analysis of cumulative data sets fed as input.
+- `PyTorch` based Deep Learning Prediction model will be appended to further make system append log of data queries generated from the user globally and learn from it overtime.
 
 ## Input-Output Based Operations
 This section scans the input and checks whether the data received is any programming language code or not, if not it further asks the user to enter the desired output and respective language they want this program in.
