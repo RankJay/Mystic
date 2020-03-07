@@ -1,8 +1,10 @@
 import math
 import numpy
 import accessNaturalNumbers
+import logarithmicnaturalNumbers
 
 access_iter=numpy.nditer([accessNaturalNumbers.NaturalNumbers])
+logarithmic_iter=numpy.nditer([logarithmicnaturalNumbers.NaturalNumbers])
 
 class mathOperations:
   def cMathOperations(inputFromUser, outputFromUser):
@@ -33,6 +35,8 @@ class mathOperations:
         f.close
         function = 'variable1/variable2'
         return str(function)
+      else:
+        return str('0')
 
     inputFromUser=float(inputFromUser)
     outputFromUser=float(outputFromUser)
@@ -55,7 +59,7 @@ class mathOperations:
     # REMOVE 1 FROM accessNaturalNumbers to operate log
     try:
       while True:
-        base=int(access_iter.__next__())
+        base=int(logarithmic_iter.__next__())
         if (math.log(inputFromUser, base)==outputFromUser):
           function = 'log(variable1, '+ str(base) +')'
           return str(function)
@@ -118,6 +122,8 @@ class mathOperations:
         f.close
         function = 'variable1/variable2'
         return str(function)
+      else:
+        return str('0')
         
     inputFromUser=float(inputFromUser)
     outputFromUser=float(outputFromUser)
@@ -203,6 +209,8 @@ class mathOperations:
         f.close
         function = 'variable1/variable2'
         return str(function)
+      else:
+        return str('0')
 
     inputFromUser=float(inputFromUser)
     outputFromUser=float(outputFromUser)
@@ -288,6 +296,9 @@ class mathOperations:
         f.close
         function = 'variable1/variable2'
         return str(function)
+      else:
+        return str('0')
+                
     inputFromUser=float(inputFromUser)
     outputFromUser=float(outputFromUser)
     try:
