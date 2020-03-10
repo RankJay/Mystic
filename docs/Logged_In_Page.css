@@ -1,0 +1,482 @@
+@font-face {
+	font-family: CeraProBlack;
+	src: url(CeraPro-Black.ttf) format("truetype");
+}
+@font-face {
+	font-family: CeraProBold;
+	src: url(CeraPro-Bold.ttf) format("truetype");
+}
+@font-face {
+	font-family: CeraProMedium;
+	src: url(CeraPro-Medium.ttf) format("truetype");
+}
+@font-face {
+	font-family: CeraProRegular;
+	src: url(CeraPro-Regular.ttf) format("truetype");
+}
+
+.mediaViewInfo {
+	--web-view-name: Logged In Page;
+	--web-view-id: Logged_In_Page;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Logged_In_Page;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Logged_In_Page {
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	left: 50%;
+	top: 50%;
+	width: 1900px;
+	height: 2968px;
+	background-color: rgba(16,16,16,1);
+	overflow: hidden;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Home_Page.html;
+	cursor: pointer;
+	--web-view-name: Logged In Page;
+	--web-view-id: Logged_In_Page;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Mystic_being_an_open_source_pr {
+	filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 1));
+	position: absolute;
+	left: 154px;
+	top: 2259px;
+	overflow: visible;
+	width: 1224px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProRegular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 43px;
+	color: rgba(255,255,255,1);
+}
+.Rectangle_28_k {
+	filter: drop-shadow(0px 0px 99px rgba(199, 26, 141, 1));
+	position: absolute;
+	overflow: visible;
+	width: 650px;
+	height: 629px;
+	left: -227px;
+	top: 250px;
+}
+#MYSTIC_io {
+	filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 1));
+	position: absolute;
+	left: 116px;
+	top: 150px;
+	overflow: visible;
+	width: 686px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProBlack;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 158px;
+	color: rgba(255,255,255,1);
+}
+#Component_3___5 {
+	opacity: 0;
+	position: absolute;
+	width: 222px;
+	height: 69px;
+	left: 132px;
+	top: 674px;
+	overflow: visible;
+}
+.Rectangle_20 {
+	position: absolute;
+	overflow: visible;
+	width: 222px;
+	height: 69px;
+	left: 0px;
+	top: 0px;
+}
+#Log_In {
+	position: absolute;
+	left: 63px;
+	top: 11px;
+	overflow: visible;
+	width: 98px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Cera Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.5px;
+}
+.Rectangle_23_q {
+	filter: drop-shadow(0px 0px 74px rgba(0, 0, 0, 1));
+	position: absolute;
+	overflow: visible;
+	width: 954px;
+	height: 364px;
+	left: 923px;
+	top: 511px;
+}
+.Rectangle_25_s {
+	filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 1));
+	position: absolute;
+	overflow: visible;
+	width: 881px;
+	height: 285px;
+	left: 923px;
+	top: 321px;
+}
+.Rectangle_17_u {
+	filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 1));
+	position: absolute;
+	overflow: visible;
+	width: 881px;
+	height: 296px;
+	left: 923px;
+	top: 708px;
+}
+#Component_6___10 {
+	position: absolute;
+	width: 709px;
+	height: 121px;
+	left: 923px;
+	top: 452px;
+	overflow: visible;
+}
+.Rectangle_27 {
+	position: absolute;
+	overflow: visible;
+	width: 709px;
+	height: 121px;
+	left: 0px;
+	top: 0px;
+}
+#Component_6___11 {
+	position: absolute;
+	width: 708px;
+	height: 125px;
+	left: 923px;
+	top: 650px;
+	overflow: visible;
+}
+.Rectangle_27_y {
+	position: absolute;
+	overflow: visible;
+	width: 708px;
+	height: 125px;
+	left: 0px;
+	top: 0px;
+}
+#Component_6___12 {
+	position: absolute;
+	width: 708px;
+	height: 114px;
+	left: 917px;
+	top: 260px;
+	overflow: visible;
+}
+.Rectangle_27_ {
+	position: absolute;
+	overflow: visible;
+	width: 708px;
+	height: 114px;
+	left: 0px;
+	top: 0px;
+}
+.Ellipse_9_ {
+	filter: drop-shadow(0px 0px 99px rgba(0, 111, 249, 1));
+	position: absolute;
+	overflow: visible;
+	width: 627px;
+	height: 607px;
+	left: 1635px;
+	top: -63px;
+}
+.Ellipse_10_ {
+	filter: drop-shadow(0px 0px 99px rgba(9, 196, 149, 1));
+	position: absolute;
+	overflow: visible;
+	width: 650px;
+	height: 629px;
+	left: 335px;
+	top: -229px;
+}
+#Component_3___6 {
+	opacity: 0;
+	position: absolute;
+	width: 222px;
+	height: 69px;
+	left: 126px;
+	top: 674px;
+	overflow: visible;
+}
+.Rectangle_20_ba {
+	position: absolute;
+	overflow: visible;
+	width: 222px;
+	height: 69px;
+	left: 0px;
+	top: 0px;
+}
+#Sign_Up {
+	position: absolute;
+	left: 50px;
+	top: 12px;
+	overflow: visible;
+	width: 123px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProMedium;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.5px;
+}
+#Group_6 {
+	position: absolute;
+	width: 771px;
+	height: 38px;
+	left: 782px;
+	top: 36px;
+	overflow: visible;
+}
+#API {
+	position: absolute;
+	left: 207px;
+	top: 0px;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProRegular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
+#Documentation {
+	position: absolute;
+	left: 334px;
+	top: 0px;
+	overflow: visible;
+	width: 233px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProRegular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
+#About_Us {
+	position: absolute;
+	left: 633px;
+	top: 0px;
+	overflow: visible;
+	width: 139px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProRegular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
+#Mystic_io {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 135px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProRegular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
+#Group_10 {
+	position: absolute;
+	width: 1058.867px;
+	height: 339.133px;
+	left: 132px;
+	top: 1842px;
+	overflow: visible;
+}
+.Union_12_bg {
+	overflow: visible;
+	position: absolute;
+	width: 1051.218px;
+	height: 140.016px;
+	left: 7.649px;
+	top: 199.117px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Want_to {
+	filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 1));
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 614px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProBlack;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 158px;
+	color: rgba(255,255,255,1);
+}
+#Component_9___3 {
+	position: absolute;
+	width: 350px;
+	height: 91px;
+	left: 1266px;
+	top: 2384px;
+	overflow: visible;
+}
+.Path_2 {
+	overflow: visible;
+	position: absolute;
+	width: 84.8px;
+	height: 8px;
+	left: 221.2px;
+	top: 45.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Rectangle_30 {
+	filter: drop-shadow(0px 0px 50px rgba(199, 26, 141, 1));
+	position: absolute;
+	overflow: visible;
+	width: 500px;
+	height: 241px;
+	left: 0px;
+	top: 0px;
+}
+#A_project_by_ {
+	filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 1));
+	position: absolute;
+	left: 32px;
+	top: 2822px;
+	overflow: visible;
+	width: 276px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProBlack;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(255,255,255,1);
+}
+.Path_3_bn {
+	overflow: visible;
+	position: absolute;
+	width: 22.2px;
+	height: 85.9px;
+	left: 158px;
+	top: 2384.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Union_13_bp {
+	overflow: visible;
+	position: absolute;
+	width: 334.24px;
+	height: 75.36px;
+	left: 31.96px;
+	top: 2879px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Union_15_br {
+	overflow: visible;
+	position: absolute;
+	width: 495.447px;
+	height: 77.68px;
+	left: 413.553px;
+	top: 2878.68px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Rectangle_31 {
+	filter: drop-shadow(0px 0px 99px rgba(255, 255, 255, 0.631));
+	position: absolute;
+	overflow: visible;
+	width: 1319px;
+	height: 806px;
+	left: 1538px;
+	top: 2714px;
+}
+#Enter_Your_Input {
+	position: absolute;
+	left: 950px;
+	top: 382px;
+	overflow: visible;
+	width: 398px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProMedium;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 44px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1px;
+}
+#Enter_Your_Output {
+	position: absolute;
+	left: 950px;
+	top: 588px;
+	overflow: visible;
+	width: 443px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProMedium;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 44px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1px;
+}
+#Enter_language_of_code {
+	position: absolute;
+	left: 950px;
+	top: 782px;
+	overflow: visible;
+	width: 572px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProMedium;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 44px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1px;
+}
