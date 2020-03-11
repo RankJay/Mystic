@@ -1,0 +1,537 @@
+@font-face {
+	font-family: CeraProBlack;
+	src: url(CeraPro-Black.ttf) format("truetype");
+}
+@font-face {
+	font-family: CeraProBold;
+	src: url(CeraPro-Bold.ttf) format("truetype");
+}
+@font-face {
+	font-family: CeraProMedium;
+	src: url(CeraPro-Medium.ttf) format("truetype");
+}
+@font-face {
+	font-family: CeraProRegular;
+	src: url(CeraPro-Regular.ttf) format("truetype");
+}
+
+.mediaViewInfo {
+	--web-view-name: Sign Up Page ;
+	--web-view-id: Sign_Up_Page_;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Sign_Up_Page_;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Sign_Up_Page_ {
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	left: 50%;
+	top: 50%;
+	width: 1900px;
+	height: 2968px;
+	background-color: rgba(16,16,16,1);
+	overflow: hidden;
+	--web-view-name: Sign Up Page ;
+	--web-view-id: Sign_Up_Page_;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+.Rectangle_28_b {
+	filter: drop-shadow(0px 0px 99px rgba(199, 26, 141, 1));
+	position: absolute;
+	overflow: visible;
+	width: 650px;
+	height: 629px;
+	left: 991px;
+	top: 208px;
+}
+#MYSTIC_io {
+	filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 1));
+	position: absolute;
+	left: 116px;
+	top: 125px;
+	overflow: visible;
+	width: 686px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProBlack;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 158px;
+	color: rgba(255,255,255,1);
+}
+.Ellipse_9_b {
+	filter: drop-shadow(0px 0px 99px rgba(0, 111, 249, 1));
+	position: absolute;
+	overflow: visible;
+	width: 958px;
+	height: 918px;
+	left: 1222px;
+	top: 229px;
+}
+.Ellipse_10_b {
+	filter: drop-shadow(0px 0px 99px rgba(9, 196, 149, 1));
+	position: absolute;
+	overflow: visible;
+	width: 650px;
+	height: 629px;
+	left: 1453px;
+	top: 74px;
+}
+#Group_6 {
+	position: absolute;
+	width: 771px;
+	height: 38px;
+	left: 782px;
+	top: 36px;
+	overflow: visible;
+}
+#API {
+	position: absolute;
+	left: 207px;
+	top: 0px;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProRegular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
+#Documentation {
+	position: absolute;
+	left: 334px;
+	top: 0px;
+	overflow: visible;
+	width: 233px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProRegular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
+#About_Us {
+	position: absolute;
+	left: 633px;
+	top: 0px;
+	overflow: visible;
+	width: 139px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProRegular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
+#Mystic_io {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 135px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProRegular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
+#Modular {
+	position: absolute;
+	left: 153px;
+	top: 1060px;
+	overflow: visible;
+	width: 212px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Cera Pro;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 52px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.5px;
+}
+#A_project_by_ {
+	filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 1));
+	position: absolute;
+	left: 32px;
+	top: 2832px;
+	overflow: visible;
+	width: 215px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProBlack;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	color: rgba(255,255,255,1);
+}
+.Union_13_ci {
+	overflow: visible;
+	position: absolute;
+	width: 334.24px;
+	height: 75.36px;
+	left: 31.96px;
+	top: 2879px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Union_15_ck {
+	overflow: visible;
+	position: absolute;
+	width: 495.446px;
+	height: 77.68px;
+	left: 413.554px;
+	top: 2878.68px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Rectangle_31 {
+	filter: drop-shadow(0px 0px 99px rgba(255, 255, 255, 0.631));
+	position: absolute;
+	overflow: visible;
+	width: 1319px;
+	height: 806px;
+	left: 1538px;
+	top: 2714px;
+}
+#Mystic_being_an_open_source_pr {
+	filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 1));
+	position: absolute;
+	left: 115px;
+	top: 2257px;
+	overflow: visible;
+	width: 997px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProRegular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	color: rgba(255,255,255,1);
+}
+#Group_11 {
+	position: absolute;
+	width: 1051.218px;
+	height: 296.133px;
+	left: 100.649px;
+	top: 1872px;
+	overflow: visible;
+}
+.Union_12_cp {
+	overflow: visible;
+	position: absolute;
+	width: 1051.218px;
+	height: 140.016px;
+	left: 0px;
+	top: 156.117px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Want_to {
+	filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 1));
+	position: absolute;
+	left: 0.351px;
+	top: 0px;
+	overflow: visible;
+	width: 447px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProBlack;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 115px;
+	color: rgba(255,255,255,1);
+}
+#Component_9___7 {
+	position: absolute;
+	width: 286px;
+	height: 86px;
+	left: 1025px;
+	top: 2395px;
+	overflow: visible;
+}
+.Path_2 {
+	overflow: visible;
+	position: absolute;
+	width: 54.8px;
+	height: 8px;
+	left: 187.2px;
+	top: 43px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Rectangle_30 {
+	filter: drop-shadow(0px 0px 50px rgba(199, 26, 141, 1));
+	position: absolute;
+	overflow: visible;
+	width: 436px;
+	height: 236px;
+	left: 0px;
+	top: 0px;
+}
+.Path_4_cv {
+	overflow: visible;
+	position: absolute;
+	width: 20.4px;
+	height: 75.4px;
+	left: 115px;
+	top: 2357.6px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#hiclipart_com_id_ifwbn {
+	position: absolute;
+	width: 701px;
+	height: 701px;
+	left: -13px;
+	top: 892px;
+	overflow: visible;
+}
+#hiclipart_com_id_ifwbn_cx {
+	position: absolute;
+	width: 991.363px;
+	height: 991.364px;
+	left: 509.818px;
+	top: 920.818px;
+	overflow: visible;
+}
+#hiclipart_com_id_ifwbn_cy {
+	position: absolute;
+	width: 701px;
+	height: 701px;
+	left: 1348px;
+	top: 903px;
+	overflow: visible;
+}
+.Rectangle_32_c {
+	filter: drop-shadow(0px 0px 74px rgba(0, 0, 0, 1));
+	position: absolute;
+	overflow: visible;
+	width: 565px;
+	height: 684px;
+	left: 553px;
+	top: 1040px;
+}
+.Rectangle_33_c {
+	filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 1));
+	position: absolute;
+	overflow: visible;
+	width: 493px;
+	height: 612px;
+	left: 1457px;
+	top: 1040px;
+}
+.Rectangle_34_c {
+	filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 1));
+	position: absolute;
+	overflow: visible;
+	width: 493px;
+	height: 612px;
+	left: 101px;
+	top: 1040px;
+}
+.Rectangle_35_c {
+	filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 1));
+	position: absolute;
+	overflow: visible;
+	width: 493px;
+	height: 612px;
+	left: 1005px;
+	top: 1040px;
+}
+.Rectangle_36 {
+	position: absolute;
+	overflow: visible;
+	width: 320px;
+	height: 369px;
+	left: 565px;
+	top: 1122px;
+}
+.Rectangle_37 {
+	position: absolute;
+	overflow: visible;
+	width: 320px;
+	height: 369px;
+	left: 1017px;
+	top: 1122px;
+}
+.Rectangle_38 {
+	position: absolute;
+	overflow: visible;
+	width: 320px;
+	height: 369px;
+	left: 1469px;
+	top: 1122px;
+}
+#Distributable {
+	position: absolute;
+	left: 127px;
+	top: 1060px;
+	overflow: visible;
+	width: 307px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 41px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.5px;
+}
+.Rectangle_39 {
+	position: absolute;
+	overflow: visible;
+	width: 320px;
+	height: 369px;
+	left: 112px;
+	top: 1122px;
+}
+#Code_in_any__Get_in_any {
+	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1));
+	position: absolute;
+	left: 178px;
+	top: 1144px;
+	overflow: visible;
+	width: 189px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProRegular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
+#Instant_code_ {
+	position: absolute;
+	left: 587px;
+	top: 1060px;
+	overflow: visible;
+	width: 307px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 41px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.5px;
+}
+#Instantly_code_to_what_you_nee {
+	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1));
+	position: absolute;
+	left: 613px;
+	top: 1144px;
+	overflow: visible;
+	width: 224px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProRegular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
+#User_friendly {
+	position: absolute;
+	left: 1033px;
+	top: 1060px;
+	overflow: visible;
+	width: 303px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 41px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.5px;
+}
+#Interactive_console_with_user_ {
+	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1));
+	position: absolute;
+	left: 1047px;
+	top: 1144px;
+	overflow: visible;
+	width: 261px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProRegular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
+#Scaling_Up {
+	position: absolute;
+	left: 1511px;
+	top: 1060px;
+	overflow: visible;
+	width: 249px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 41px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 0.5px;
+}
+#Help_coders_globally_pace_up_ {
+	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 1));
+	position: absolute;
+	left: 1524px;
+	top: 1144px;
+	overflow: visible;
+	width: 211px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: CeraProRegular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+}
+#Artboard___1 {
+	position: absolute;
+	width: 92px;
+	height: 90px;
+	left: 38px;
+	top: 10px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Home_Page_.html;
+	cursor: pointer;
+}
