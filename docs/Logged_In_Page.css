@@ -501,6 +501,6 @@
 	overflow: visible;
 	--web-animation: fadein 0.3s ease-out;
 	--web-action-type: page;
-	--web-action-target: Home_Page_.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 }
