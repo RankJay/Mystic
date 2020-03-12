@@ -66,6 +66,7 @@
 	height: 629px;
 	left: -227px;
 	top: 250px;
+	z-index: 2;
 }
 #MYSTIC_io {
 	filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 1));
@@ -86,6 +87,7 @@
 	position: relative;
 	left: 125px;
 	top: 350px;
+	z-index: 1;
 }
 #Component_3___9 {
 	opacity: 0;
@@ -127,6 +129,7 @@
 	height: 339px;
 	left: 955px;
 	top: 474px;
+	z-index: 3;
 }
 .Rectangle_25_v {
 	filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 1));
@@ -136,6 +139,7 @@
 	height: 262px;
 	left: 955px;
 	top: 316px;
+	z-index: 4;
 }
 .Rectangle_17_x {
 	filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 1));
@@ -145,6 +149,7 @@
 	height: 271px;
 	left: 955px;
 	top: 637px;
+	z-index: 5;
 }
 #Component_6___21 {
 	position: absolute;
@@ -153,6 +158,7 @@
 	left: 955px;
 	top: 425px;
 	overflow: visible;
+	z-index: 6;
 }
 .Rectangle_27 {
 	position: absolute;
@@ -169,6 +175,7 @@
 	left: 955px;
 	top: 589px;
 	overflow: visible;
+	z-index: 7;
 }
 .Rectangle_27_ {
 	position: absolute;
@@ -185,6 +192,7 @@
 	left: 950px;
 	top: 266px;
 	overflow: visible;
+	z-index: 8;
 }
 .Rectangle_27_ba {
 	position: absolute;
@@ -368,6 +376,7 @@
 	font-size: 36px;
 	color: rgba(0,0,0,1);
 	letter-spacing: 1px;
+	z-index: 9;
 }
 #Enter_Your_Output {
 	position: absolute;
@@ -383,6 +392,7 @@
 	font-size: 36px;
 	color: rgba(0,0,0,1);
 	letter-spacing: 1px;
+	z-index: 10;
 }
 #Enter_language_of_code {
 	position: absolute;
@@ -398,6 +408,7 @@
 	font-size: 36px;
 	color: rgba(0,0,0,1);
 	letter-spacing: 1px;
+	z-index: 11;
 }
 #Mystic_being_an_open_source_pr {
 	filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 1));
