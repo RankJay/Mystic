@@ -29,11 +29,23 @@ class mathOperations:
         f.close
         function = 'variable1*variable2'
         return str(function)
-      elif (float(arithmaticOperations[0]/arithmaticOperations[1])==float(outputFromUser)):
+      elif (float(arithmaticOperations[0]/arithmaticOperations[1])==float(outputFromUser)) or (float(arithmaticOperations[1]/arithmaticOperations[0])==float(outputFromUser)):
         f= open("Program.c","w+")
         f.write('/*Add this in int main()\n\tfloat variable2;\n\tscanf("%f", &variable2);\n*/\n\n')
         f.close
         function = 'variable1/variable2'
+        return str(function)
+      elif max(arithmaticOperations[0], arithmaticOperations[1])==float(outputFromUser):
+        f= open("Program.c","w+")
+        f.write('/*Add this in int main()\n\tfloat variable2;\n\tscanf("%f", &variable2);\n*/\n\n')
+        f.close
+        function = '{ variable1 > variable2 ? variable1:variable2 }'
+        return str(function)
+      elif min(arithmaticOperations[0], arithmaticOperations[1])==float(outputFromUser):
+        f= open("Program.c","w+")
+        f.write('/*Add this in int main()\n\tfloat variable2;\n\tscanf("%f", &variable2);\n*/\n\n')
+        f.close
+        function = '{ variable1 < variable2 ? variable1:variable2 }'
         return str(function)
       else:
         return str('0')
@@ -116,11 +128,23 @@ class mathOperations:
         f.close
         function = 'variable1*variable2'
         return str(function)
-      elif (float(arithmaticOperations[0]/arithmaticOperations[1])==float(outputFromUser)):
+      elif (float(arithmaticOperations[0]/arithmaticOperations[1])==float(outputFromUser)) or (float(arithmaticOperations[1]/arithmaticOperations[0])==float(outputFromUser)):
         f= open("Program.cpp","w+")
         f.write('/*Add this in int main()\n\tfloat variable2;\n\tcin >> variable2;\n*/\n\n')
         f.close
         function = 'variable1/variable2'
+        return str(function)
+      elif max(arithmaticOperations[0], arithmaticOperations[1])==float(outputFromUser):
+        f= open("Program.c","w+")
+        f.write('/*Add this in int main()\n\tfloat variable2;\n\tscanf("%f", &variable2);\n*/\n\n')
+        f.close
+        function = '{ variable1 > variable2 ? variable1:variable2 }'
+        return str(function)
+      elif min(arithmaticOperations[0], arithmaticOperations[1])==float(outputFromUser):
+        f= open("Program.c","w+")
+        f.write('/*Add this in int main()\n\tfloat variable2;\n\tscanf("%f", &variable2);\n*/\n\n')
+        f.close
+        function = '{ variable1 < variable2 ? variable1:variable2 }'
         return str(function)
       else:
         return str('0')
@@ -203,11 +227,23 @@ class mathOperations:
         f.close
         function = 'variable1*variable2'
         return str(function)
-      elif (float(arithmaticOperations[0]/arithmaticOperations[1])==float(outputFromUser)):
+      elif (float(arithmaticOperations[0]/arithmaticOperations[1])==float(outputFromUser)) or (float(arithmaticOperations[1]/arithmaticOperations[0])==float(outputFromUser)):
         f= open("Program.py","w+")
         f.write("'''\nAdd this below variable1 input\nvariable2=float(input())\n'''\n")
         f.close
         function = 'variable1/variable2'
+        return str(function)
+      elif max(arithmaticOperations[0], arithmaticOperations[1])==float(outputFromUser):
+        f= open("Program.c","w+")
+        f.write('/*Add this in int main()\n\tfloat variable2;\n\tscanf("%f", &variable2);\n*/\n\n')
+        f.close
+        function = 'max(variable1, variable2)'
+        return str(function)
+      elif min(arithmaticOperations[0], arithmaticOperations[1])==float(outputFromUser):
+        f= open("Program.c","w+")
+        f.write('/*Add this in int main()\n\tfloat variable2;\n\tscanf("%f", &variable2);\n*/\n\n')
+        f.close
+        function = 'min(variable1, variable2)'
         return str(function)
       else:
         return str('0')
@@ -290,11 +326,23 @@ class mathOperations:
         f.close
         function = 'variable1*variable2'
         return str(function)
-      elif (float(arithmaticOperations[0]/arithmaticOperations[1])==float(outputFromUser)):
+      elif (float(arithmaticOperations[0]/arithmaticOperations[1])==float(outputFromUser)) or (float(arithmaticOperations[1]/arithmaticOperations[0])==float(outputFromUser)):
         f= open("Program.java","w+")
         f.write('/*Add this in int main()\n\tfloat variable2 = scanner.nextFloat();\n*/\n\n')
         f.close
         function = 'variable1/variable2'
+        return str(function)
+      elif max(arithmaticOperations[0], arithmaticOperations[1])==float(outputFromUser):
+        f= open("Program.c","w+")
+        f.write('/*Add this in int main()\n\tfloat variable2;\n\tscanf("%f", &variable2);\n*/\n\n')
+        f.close
+        function = '{ variable1 > variable2 ? variable1:variable2 }'
+        return str(function)
+      elif min(arithmaticOperations[0], arithmaticOperations[1])==float(outputFromUser):
+        f= open("Program.c","w+")
+        f.write('/*Add this in int main()\n\tfloat variable2;\n\tscanf("%f", &variable2);\n*/\n\n')
+        f.close
+        function = '{ variable1 < variable2 ? variable1:variable2 }'
         return str(function)
       else:
         return str('0')
