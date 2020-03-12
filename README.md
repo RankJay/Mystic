@@ -35,6 +35,8 @@ The underlying architecture of this entire module lies in interpreting and gener
 14) Inverse Cosine-Hyperbolic function
 15) Inverse Tangent-Hyperbolic function
 16) Absolute Value Function
+17) Maximum function
+18) Minimum function
 ### String-related Functionality
 The underlying architecture of this entire module lies in interpreting and generating the function related to string and file handling like concatenation as well as changing cases and handling any grammatical error based on input-output that is provided by the user. By following a certain set of protocols as input, the user can be easily provided with the most significant algorithm based on the output generated.
 1) String Concatenation
