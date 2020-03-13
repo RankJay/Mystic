@@ -1,4 +1,4 @@
-# Mystic
+# Mystic:
 ## [MIT License](https://github.com/RankJay/Mystic/blob/master/LICENSE)
 ## Website Protoptype: [Mystic.io](https://rankjay.github.io/Mystic/)
 Download this [file](https://github.com/RankJay/Mystic/tree/master/docs) to get a better version of website on your chrome browser.
@@ -6,6 +6,7 @@ Download this [file](https://github.com/RankJay/Mystic/tree/master/docs) to get 
 This is our working backend `python` model to write code.
 - **NOTE:** This does not have PyTorch model working on backend since it takes enormous amount of time to process, hence this will provide a clearer version of our work so far.
 
+# Documentation:
 >Mystic though still-under-construction, in its beta release, will be transformed into a website based on `Python` Back-end architecture connected with `React JavaScript` based front-end designed on Adobe XD as well as an ordinary JavaScript Compiler with an exclusive access to Pandit Deendayal Petroleum University students for their academic as well as non-academic programming practices and interested candidates based on their relativistic and working module ideas that might take this project a step-forward will be allowed to contribute to this project.
 
 - Mystic is an open-source project designed to help developers instantly get the most optimized code for their respective intended input and output with additionally providing them with 4 different coding language export namely `C`,`C++`,`Python` and `Java`.
