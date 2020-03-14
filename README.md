@@ -2,6 +2,8 @@
 ## [MIT License](https://github.com/RankJay/Mystic/blob/master/LICENSE)
 ## Website Protoptype: [Mystic.io](https://rankjay.github.io/Mystic/)
 Download this [file](https://github.com/RankJay/Mystic/tree/master/docs) to get a better version of website on your chrome browser.
+- [`Click Here`](https://github.com/RankJay/Mystic/tree/master/docs) for front-end `HTML/CSS` files.
+- [`CLick Here`](https://github.com/RankJay/Mystic/tree/master/src/ImpressiveWholeWheel) for back-end `Python` files. 
 ## Working Code without PyTorch Model: [Code](https://repl.it/repls/ImpressiveWholeWheel)
 This is our working backend `python` model to write code.
 - **NOTE:** This does not have PyTorch model working on backend since it takes enormous amount of time to process, hence this will provide a clearer version of our work so far.
