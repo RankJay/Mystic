@@ -5,7 +5,7 @@ Download this [file](https://github.com/RankJay/Mystic/tree/master/docs) to get 
 - [`Click Here`](https://github.com/RankJay/Mystic/tree/master/docs) for front-end `HTML/CSS` files.
 - [`CLick Here`](https://github.com/RankJay/Mystic/tree/master/src/ImpressiveWholeWheel) for back-end `Python` files. 
 ## Working Code without PyTorch Model: [Code](https://repl.it/repls/ImpressiveWholeWheel)
-This is our working backend `python` model to write code.
+This is our working backend `Python` model to write code.
 - **NOTE:** This does not have PyTorch model working on backend since it takes enormous amount of time to process, hence this will provide a clearer version of our work so far.
 
 # Documentation:
