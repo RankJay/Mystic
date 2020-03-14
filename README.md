@@ -7,7 +7,49 @@ Download this [file](https://github.com/RankJay/Mystic/tree/master/docs) to get 
 ## Working Code without PyTorch Model: [Code](https://repl.it/repls/ImpressiveWholeWheel)
 This is our working backend `Python` model to write code.
 - **NOTE:** This does not have PyTorch model working on backend since it takes enormous amount of time to process, hence this will provide a clearer version of our work so far.
+## Examples:
+- Basic Arithmetic Operations:
+```
+Enter your Input:     // For Addition, Substraction, Multiplication, Division, Maximum, Minimum
+>>> 2 3
+Enter your Output:
+>>> 5
+Enter language of code:
+>>> java
+```
+- Higher Mathematical Operations:
+```
+Enter your Input:     // For the rest of the Mathematical Funtionalities
+>>> 2
+Enter your Output:
+>>> 2048
+Enter language of code:
+>>> c++
+```
+- Data Structures Operations:
+```
+Enter your Input:     // For converting the language of code
+>>> 4 3 5 8 1
+Enter your Output:
+>>> 1 3 4 4 8
+Enter language of code:
+>>> c++
+```
+- Language Convertor:
+```
+Enter your Input:     // For converting the language of code
+>>> #include<stdio.h>
+    #include<math.h>
 
+    int main() {
+	     float variable1, output;
+	     scanf("%f", &variable1);
+	     output=pow(variable1, 11);
+	     printf("%f", output);
+    }
+Enter language of converted code:
+>>> python
+```
 # Documentation:
 >Mystic though still-under-construction, in its beta release, will be transformed into a website based on `Python` Back-end architecture connected with `React JavaScript` based front-end designed on Adobe XD as well as an ordinary JavaScript Compiler with an exclusive access to Pandit Deendayal Petroleum University students for their academic as well as non-academic programming practices and interested candidates based on their relativistic and working module ideas that might take this project a step-forward will be allowed to contribute to this project.
 
