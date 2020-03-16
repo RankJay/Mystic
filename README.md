@@ -2,6 +2,7 @@
 ## [MIT License](https://github.com/RankJay/Mystic/blob/master/LICENSE)
 ## Website Protoptype: [Mystic.io](https://rankjay.github.io/Mystic/)
 Download this [file](https://github.com/RankJay/Mystic/tree/master/docs) to get a better version of website on your chrome browser.
+- **NOTE:** This prototype website does not work on Android or any other mobile devices.
 - [`Click Here`](https://github.com/RankJay/Mystic/tree/master/docs) for front-end `HTML/CSS` files.
 - [`CLick Here`](https://github.com/RankJay/Mystic/tree/master/src/ImpressiveWholeWheel) for back-end `Python` files. 
 ## Working Code without PyTorch Model: [Code](https://repl.it/repls/ImpressiveWholeWheel)
