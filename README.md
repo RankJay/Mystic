@@ -29,8 +29,8 @@ Enter language of code:
 ```
 - Data Structures Operations:
 ```
-Enter your Input:     // For converting the language of code
->>> 4 3 5 8 1
+Enter your Input:     // For Data Structures Functionalities
+>>> 4 3 5 8 
 Enter your Output:
 >>> 1 3 4 4 8
 Enter language of code:
